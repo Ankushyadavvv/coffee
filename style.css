@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  padding: 40px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.navbar-brand2 {
+  margin-right: 100px;
+}
+#nav1{
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+.secondinfo{
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+.footer{
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+
+
+.navbar-brand2 {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.navbar-brand2:hover {
+  opacity: 1;
+}
+
+.nav-link {
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.btn1 {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.btn1:hover {
+  background-color: rgb(222, 220, 220);
+  transition: 0.4s;
+}
+
+.btn2:hover {
+  background-color: rgb(88, 88, 88);
+  transition: 0.4s;
+}
+
+.btn2 {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 50px;
+  border: none;
+  margin-right: 30px;
+  padding: 5px;
+
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  padding: 4px;
+}
+
+.btns1 {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid wheat;
+  color: aliceblue;
+  background-color: #006241;
+  width: 150px;
+}
+
+.btns1:hover {
+  background-color: #10553e;
+}
+
+.btns2 {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid wheat;
+  color: aliceblue;
+  width: 150px;
+  background-color: #1e3932;
+}
+
+.btns2:hover {
+  background-color: #143028;
+}
+
+.btns3 {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid wheat;
+  color: aliceblue;
+  width: 150px;
+  background-color: #e31c79;
+}
+
+.btns3:hover {
+  background-color: #a8195c;
+}
+
+.btns4 {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid wheat;
+  color: aliceblue;
+  width: 150px;
+  background-color: #76232f;
+}
+
+.btns4:hover {
+  background-color: #63212b;
+}
+
+.btns5 {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid wheat;
+  color: aliceblue;
+  width: 150px;
+  background-color: #b04a5a;
+}
+
+.btns5:hover {
+  background-color: #89323f;
+}
+
+
+.row {
+  background-color: #006241;
+
+}
+
+
+#row2 {
+  background-color: #1e3932;
+}
+
+#row3 {
+  background-color: #e31c79;
+}
+
+#row4 {
+  background-color: #76232f;
+}
+
+#row5 {
+  background-color: #b04a5a;
+}
+
+.firstinfo {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.secondinfo {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#firstpara {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+.ct-footer-list {
+  display: flex;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: #0a0a0a;
+  opacity: 0.7;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.footer .content a:hover {
+  opacity: 1;
+}
+
+.spotify,
+.fb,
+.pinterest,
+.insta,
+.youtube,
+.twitter {
+  opacity: 0.8;
+}
+
+.spotify:hover {
+  opacity: 1;
+}
+
+.fb:hover {
+  opacity: 1;
+}
+
+.pinterest:hover {
+  opacity: 1;
+}
+
+.insta:hover {
+  opacity: 1;
+}
+
+.youtube:hover {
+  opacity: 1;
+}
+
+.twitter:hover {
+  opacity: 1;
+}
+
+.logos {
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+.spotify,
+.fb,
+.pinterest,
+.insta,
+.youtube,
+.twitter {
+  padding-right: 10px;
+}
+
+.p {
+  margin-top: 10px;
+  margin-left: 85px;
+  color: rgb(88, 87, 87);
+}
+.content i{
+  display: none;
+}
+
+
+
+/* media query */
+
+@media (max-width: 991px) {
+
+  #row2,
+  #row4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+  }
+  #firstpara{
+    padding: 15px 15px;
+  }
+  .about p{
+    display: none;
+  }
+  .Careers p{
+    display: none;
+  }
+  .SocialImpact p{
+    display: none;
+  }
+  .ForBus p{
+    display: none;
+  }
+  .Order p{
+    display: none;
+  }
+  .SocialImpact p{
+    display: none;
+  }
+  .content{
+    gap: 30px;
+  }
+  .content i{
+    display: inline;
+  }
+}
+
+.footer {
+  position: unset;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}
